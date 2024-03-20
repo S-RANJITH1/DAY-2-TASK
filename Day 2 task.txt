@@ -1,0 +1,36 @@
+Write a blog on the Difference between Document and Window objects:
+
+   Document Object:
+      
+            1.Document is the object of window property.
+            2.You can access it via window.document or document.
+            3.When the browser first loads code like this the browser engine reach the html code creates something called a document object model or it otherwise called dom.
+            4.Dom is like trees structure that represents the html code of a page.
+            5.It is the direct child of the window object. This is also known as Document Object Model(DOM).
+            6.Provides methods for browser interaction
+            7.Manages properties related to frames, tabs, or windows
+            8.Provides methods for interacting with the document
+            Syntax:
+                document.propertyname();
+     
+    window Object Model:
+     
+            1.window is the object of the browser.
+            2.By default window object is available implicitly in the page
+            3.The window is the first thing that gets loaded into the browser.
+            4.The HTML document that appears in the browser window
+            5.Serves as an interface for interacting with the web page's content
+            6.The browser generates a Document Object Model of a web page upon loading it
+            7.The window object have the majority of the properties.        
+                Likes,
+                    Length 
+                    Inner hight
+                    Name 
+                    Open
+                    Close,etc.,
+            8.Window is the global object.
+            9.However the window object is the top most object of the dom hierarchy and it represents window of frame or display the content of the web page.
+
+            Syntax:
+                window.property_name;      
+                                           
